@@ -27,6 +27,10 @@ header {
     font-weight: bold;
 }
 
+nav {
+    position: relative;
+}
+
 nav button {
     background: none;
     border: none;
@@ -41,11 +45,12 @@ nav ul {
     margin: 0;
     display: none;
     position: absolute;
-    right: 20px;
+    right: 0;
     top: 60px;
     background: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    width: 200px;
 }
 
 nav ul.open {
